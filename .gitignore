@@ -1,7 +1,8 @@
-creds.config
 .idea/*
 dist/*
 build/*
+data/*
+send-facebook-message-no-prompt.spec
 
 # Created by https://www.gitignore.io/api/pycharm
 # Edit at https://www.gitignore.io/?templates=pycharm
