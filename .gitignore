@@ -1,8 +1,11 @@
+send-facebook-message-no-prompt.spec
+1-send-facebook-message-no-prompt.spec
+
 .idea/*
 dist/*
 build/*
 data/*
-send-facebook-message-no-prompt.spec
+
 
 # Created by https://www.gitignore.io/api/pycharm
 # Edit at https://www.gitignore.io/?templates=pycharm
@@ -88,3 +91,4 @@ fabric.properties
 
 # End of https://www.gitignore.io/api/pycharm
 
+send-facebook-message-no-prompt.spec
