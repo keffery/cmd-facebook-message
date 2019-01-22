@@ -1,5 +1,8 @@
+# Custom files and folders to ignore
+
 send-facebook-message-no-prompt.spec
-1-send-facebook-message-no-prompt.spec
+pip-selfcheck.json
+pyvenv.cfg
 
 .idea/*
 dist/*
