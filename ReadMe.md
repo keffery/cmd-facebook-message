@@ -21,14 +21,19 @@ The idea behind this program is to automatically remind that one special person 
 
    The .bak file will be used when all the messages in the messages.txt file are gone to populate the .txt file again
 
-6. To compile the program into an exe you will need pyinstaller
+6. To compile the program into an exe you will need pyinstaller. This repo includes a virtual environment with all the necessary dependencies. You can set your interpreter to use the Scripts/python.exe and skip to step 9. Or just install all necessary dependencies in your existing  interpreter.
+   
 7. Using your terminal (PowerShell, cmd) browse to the folder containing your files
+   
 8. Use pip to install pyinstaller (pip install pyinstaller)
-9. run pyinstaller to create your exe (pyinstaller --onefile send-facebook-message-no-prompt.py)
+   
+9.  run pyinstaller to create your exe (pyinstaller --onefile send-facebook-message-no-prompt.py)
+    
 10. We need to include the data folder so look at the sample-send-facebook-message-no-prompt.spec and add  
     
     Tree('data', prefix='data'),
 
     in the same location
 11. Re-build your exe (pyinstaller send-facebook-message-no-prompt.spec)
+    
 12. Look in the dist folder to find your .exe
