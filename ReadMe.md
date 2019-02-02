@@ -2,7 +2,7 @@
 
 ## This application will send a Facebook message
 
-The idea behind this program is to automatically send a Facebook message to a user. All the messages are in a text file which the program will select one message (one line) from the file and send it to the user of your choice.
+The idea behind this program is to automatically remind that one special person that you care about them by sending them a prewritten message through Facebook Messenger. The program will read in the file with all the messages and select one message (one line) from the file and send it to the user of your choice.
 
 ## How to use
 1. Clone this repo
@@ -13,11 +13,11 @@ The idea behind this program is to automatically send a Facebook message to a us
   Enter the username of the person you intend to send the messages to 
   To find their username look them up on Facebook and it should be the text directly after facebook.com/\<username>
 
-4. Edit the messages you want to send in the messages.txt file 
+4. Edit/customize the messages you want to send in the messages.txt file 
 
    The program will randomly choose one of these messages. It will not go in order
 
-5. After you are done editing the messages.txt file copy its contents to the messages.bak file
+5. After you are done customizing your messages.txt file, copy its contents to the messages.bak file
 
    The .bak file will be used when all the messages in the messages.txt file are gone to populate the .txt file again
 
